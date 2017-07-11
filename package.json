@@ -1,7 +1,7 @@
 {
   "name": "ms-pack-test",
   "version": "1.0.2",
-  "main": "index.js",
+  "main": "lib",
   "repository": {
     "url": "https://github.com/carlpeaslee/ms-pack-test.git",
     "type": "git"
