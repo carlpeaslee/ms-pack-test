@@ -1,0 +1,10 @@
+{
+  "name": "ms-pack-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Carl Peaslee <cpeaslee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1"
+  }
+}
