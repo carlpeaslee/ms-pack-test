@@ -1,13 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import registerServiceWorker from './registerServiceWorker'
 
-class App extends Component {
-  render() {
-    return (
-      <h3>
-        Hi this is baby!
-      </h3>
-    )
-  }
-}
-
-export default App
+ReactDOM.render(<App />, document.getElementById('root'))
+registerServiceWorker()

@@ -7,16 +7,19 @@
     "type": "git"
   },
   "author": "Carl Peaslee <cpeaslee@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^15.6.1"
-  },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-react": "^6.24.1"
+    "react-scripts": "1.0.10"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "redux": "^3.7.1"
   },
   "scripts": {
-    "build": "babel src -d lib"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "package": "babel src/App -d lib"
   }
 }
